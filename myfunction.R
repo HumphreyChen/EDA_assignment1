@@ -7,5 +7,6 @@ myfunction<-function()
 second<-function(x)
 {
   x+rnorm(length(x))
+  # test line
   mean(x)
 }
